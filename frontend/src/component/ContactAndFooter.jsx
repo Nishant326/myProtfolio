@@ -7,9 +7,9 @@ const CONTACT_INFO = [
 ];
 
 const SOCIALS = [
-  { icon: "𝕏", href: "#", label: "Twitter" },
-  { icon: "in", href: "#", label: "LinkedIn" },
-  { icon: "⌥", href: "#", label: "GitHub" },
+  { icon: "𝕏", href: "https://x.com/rawani73023", label: "Twitter" },
+  { icon: "in", href: "https://www.linkedin.com/in/nishant-rawani/", label: "LinkedIn" },
+  { icon: "⌥", href: "https://github.com/Nishant326", label: "GitHub" },
 ];
 
 export default function ContactAndFooter() {

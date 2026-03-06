@@ -96,7 +96,7 @@ function Hero() {
                 </a>
 
                 <a
-                  href="https://twitter.com"
+                  href="https://x.com/rawani73023"
                   target="_blank"
                   rel="noreferrer"
                   className="group relative p-3.5 rounded-full 
@@ -117,7 +117,7 @@ function Hero() {
                 </a>
 
                 <a
-                  href="https://leetcode.com"
+                  href="https://leetcode.com/u/Nishant_kumar26/"
                   target="_blank"
                   rel="noreferrer"
                   className="group relative p-3.5 rounded-full 
