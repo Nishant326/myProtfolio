@@ -27,9 +27,7 @@ const NavBar = () => {
 
   return (
     <nav className="navbar">
-
       <div className="nav-container">
-
         {/* Logo */}
         <div className="logo">
           <div className="logo-box">
@@ -40,24 +38,32 @@ const NavBar = () => {
 
         {/* Menu Button */}
         <div className="menu-wrapper">
-          <button
-            className="menu-btn"
-            onClick={() => setIsOpen(!isOpen)}
-          >
+          <button className="menu-btn" onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? "✕" : "☰"}
           </button>
 
           {isOpen && (
             <div className="dropdown">
-              <a href="/projects">🚀 Projects</a>
-              <a href="/contact">📩 Contact</a>
-              <a href="/">⭐ Reviews</a>
+              <a href="#hero">
+                <i class="fa-solid fa-house"></i> Home
+              </a>
+              <a href="#projects">
+                <i class="fa-regular fa-lightbulb"></i> Projects
+              </a>
+              <a href="#skills">
+                <i class="fa-solid fa-brain"></i> Skills
+              </a>
+              <a href="#experience">
+                <i class="fa-brands fa-hotjar"></i> Experience
+              </a>
+
+              <a href="#contact">
+                <i class="fa-regular fa-address-book"></i> Contact
+              </a>
             </div>
           )}
         </div>
-
       </div>
-
     </nav>
   );
 };
